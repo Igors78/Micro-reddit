@@ -1,19 +1,21 @@
-
 ### Ruby on Rails
 
 ## "Micro-reddit"
 
-- 
+- In this project we are building three data models according to the Object
+  Relation Mapping pattern, reflecting the functions in Reddit web service. So,
+  we create a User model, each user can have many Comment model instances and
+  Post model instances connected to it.
 
 ![screenshot](screenshot.png)
 
 ## Getting Started
 
-- This app is functional 
+- This app is functional
 
 ## Live Demo
 
-[Live Demo Link](https://serene-chamber-76859.herokuapp.com/)
+[Live Demo Link](https://repl.it/@Igors78/Micro-reddit#README.md)
 
 ## On your Computer
 
@@ -31,10 +33,12 @@ To get a local copy up and running follow these simple example steps.
 ## Install
 
 - Go to your preferred directory
-- Run `git clone https://github.com/Igors78/Sample_app.git` command
-- Install Rails with all dependencies in order to run local server and app in it:
-`install Rails`
+
+- Run `https://github.com/Igors78/Micro-reddit.git` command
+- Install Rails with all dependencies in order to run local server and app in
+  it: `install Rails`
 - Install gems ignoring production environment
+
 ```
 $ bundle config set without 'production'
 $ bundle install
@@ -59,13 +63,9 @@ $ rails test
 ```
 $ rails server
 ```
-- Open LOCALHOST:3000 in your browser
-For more information, see the
-[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
 
-
-
-
+- Open LOCALHOST:3000 in your browser For more information, see the
+  [_Ruby on Rails Tutorial_ book](https://www.railstutorial.org/book).
 
 ## Built with
 
@@ -76,8 +76,8 @@ For more information, see the
 
 👤 **Igors Oleinikovs** 👨🏿‍💻
 
-- GitHub: [@githubhandle](https://github.com/Igors78)
-- Twitter: [@twitterhandle](https://twitter.com/oleinikovs)
+- GitHub: [Igors78](https://github.com/Igors78)
+- Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
 👤 **Yoko Saka** 👨🏿‍💻
@@ -85,7 +85,6 @@ For more information, see the
 - GitHub: [@yocosaka](https://github.com/yocosaka)
 - Twitter: [@yocosaka](https://twitter.com/yocosaka)
 - LinkedIn: [Yoko Saka](https://www.linkedin.com/in/yokosaka)
-
 
 ## 🤝 Contributing
 
