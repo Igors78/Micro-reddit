@@ -3,7 +3,7 @@
 
 ## "Micro-reddit"
 
-- 
+- In this project we are building three data models according to the Object Relation Mapping pattern, reflecting the functions in Reddit web service. So, we create a User model, each user can have many Comment model instances and Post model instances connected to it.
 
 ![screenshot](screenshot.png)
 
